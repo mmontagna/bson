@@ -1,14 +1,9 @@
 bson
 ====
-
-
-.. image:: https://badge.fury.io/py/bson.svg?
-   :target: https://pypi.python.org/pypi/bson
-.. image:: https://travis-ci.org/py-bson/bson.svg?branch=master
-   :target: https://travis-ci.org/py-bson/bson
-   
-
 Independent BSON codec for Python that doesn't depend on MongoDB.
+
+This package is basically https://github.com/py-bson/bson but with
+some terrible hacks to make it faster.
 
 
 Installation
@@ -22,7 +17,7 @@ or can use pip
 
 .. sourcecode:: bash
 
-   ~ $ pip install bson
+   ~ $ pip install fast_bson
 
 
 Quick start
